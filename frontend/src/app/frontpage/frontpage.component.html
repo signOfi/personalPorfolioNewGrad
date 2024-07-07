@@ -1,0 +1,58 @@
+<div class="container">
+  <section class="about">
+    <div class="left">
+      <h3>Full Stack Developer</h3>
+      <div class="info">
+        <h2>Hey, I'm Anthony</h2>
+        <p>I build interactive web applications</p>
+        <div class="buttons">
+          <a href="assets/blank_resume.pdf" download="assets/blank_resume.pdf" class="btn primary">
+            Download Resume <i class="fa-solid fa-download"></i>
+          </a>
+          <button class="btn secondary" (click)="copyToClipboard()">
+            Copy Email <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <span class="status">
+        <i class="fa-solid fa-circle"></i>
+        Available for Work
+      </span>
+      <img src="assets/profile.png" alt="picture of me">
+    </div>
+  </section>
+
+  <section class="works">
+    <div class="left">
+      <h3 class="projects">Projects</h3>
+      <div class="works-list">
+        <div class="item" *ngFor="let project of projects">
+          <div class="work-info">
+            <a [href]="project.link" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+            <p>{{ project.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="item about-me">
+        <h4>About Me</h4>
+        <p>Raised in Dallas TX, I'm a life long learner, and eager to do excellent work. My favorite programming language is Java, and I tend to geek out on math. What I love to do outside of code is running, meditating, and working out!</p>
+      </div>
+      <div class="item" *ngFor="let skill of skills">
+        <h4><i [class]="skill.icon"></i> {{ skill.category }}</h4>
+        <p>{{ skill.technologies }}</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h4>Connect</h4>
+    <div class="socials">
+      <a href="https://github.com/signOfi" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+      <a href="https://www.linkedin.com/in/anthony-lam14/" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+    </div>
+  </footer>
+</div>
