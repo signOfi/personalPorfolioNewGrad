@@ -14,9 +14,9 @@ export class FrontpageComponent {
   email = "anthonylam14@gmail.com";
 
   projects = [
-    { title: 'Trail-Buddy', description: 'Matches people who loves the great outdoors', link: '#' },
     { title: 'Interactive Pokemon Map', description: 'Uses the PokeAPI to explore the world of pokemon', link: 'https://pokemon-map.netlify.app/' },
-    { title: 'Pokemon Price Tracker', description: 'Web Scrapper app to get the market value of video games', link: '#' }
+    { title: 'Pokemon Price Tracker', description: 'Web Scrapper app to get the market value of video games', link: 'https://github.com/signOfi/PokemonPriceProject' },
+    { title: 'Trail-Buddy', description: 'Matches people who loves the great outdoors, In Development', link: '#' },
   ];
 
   skills = [
