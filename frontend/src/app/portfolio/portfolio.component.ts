@@ -19,7 +19,7 @@ export class PortfolioComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
       ],
       image: 'assets/patagonia.jpg',
-      link: 'http://trailbuddy.com'
+      // link: 'http://trailbuddy.com'
     },
     {
       name: 'Interactive Pokemon Map',
@@ -41,7 +41,7 @@ export class PortfolioComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.'
       ],
       image: 'assets/price.jpg',
-      link: 'http://vgpricetracker.com'
+      // link: 'http://vgpricetracker.com'
     }
   ];
 
