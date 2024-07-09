@@ -21,6 +21,15 @@ export class PortfolioComponent {
       link: 'https://pokemon-map.netlify.app/'
     },
     {
+      name: 'TrailBuddy',
+      description: 'Matches people who love the great outdoors.',
+      extendedDescription: [
+        'In Development.'
+      ],
+      image: 'assets/patagonia.jpg',
+      link: 'https://trailbuddy.netlify.app/'
+    },
+    {
       name: 'Video Game Price Tracker',
       description: 'Web scrapper app to get the market value of video games.',
       extendedDescription: [
@@ -29,15 +38,6 @@ export class PortfolioComponent {
       ],
       image: 'assets/price.jpg',
       link: 'https://github.com/signOfi/PokemonPriceProject'
-    },
-    {
-      name: 'TrailBuddy',
-      description: 'Matches people who love the great outdoors.',
-      extendedDescription: [
-        'In Development.'
-      ],
-      image: 'assets/patagonia.jpg',
-      link: 'https://github.com/signOfi'
     },
   ];
 
