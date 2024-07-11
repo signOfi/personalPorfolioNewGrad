@@ -86,3 +86,49 @@
     font-size: 16px;
   }
 }
+
+@media (min-width: 1440px) {
+  .contact-container {
+    max-width: 800px;
+    padding: 80px;
+  }
+
+  .contact-header h2 {
+    font-size: 36px;
+  }
+
+  .contact-header p {
+    font-size: 22px;
+  }
+
+  .contact-item {
+    font-size: 20px;
+  }
+
+  .contact-item i {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .contact-container {
+    max-width: 1000px;
+    padding: 100px;
+  }
+
+  .contact-header h2 {
+    font-size: 44px;
+  }
+
+  .contact-header p {
+    font-size: 26px;
+  }
+
+  .contact-item {
+    font-size: 24px;
+  }
+
+  .contact-item i {
+    font-size: 32px;
+  }
+}
