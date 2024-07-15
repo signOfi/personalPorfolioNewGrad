@@ -24,7 +24,8 @@ export class PortfolioComponent {
       name: 'TrailBuddy',
       description: 'Matches people who love the great outdoors.',
       extendedDescription: [
-        'In Development.'
+        'In Development; Engineered a comprehensive full-stack web application for outdoor event management using Spring Boot for the backend and Angular for the frontend. Integrated Google Maps API to enhance location-based services, allowing users to visualize event locations and calculate distances. Implemented real-time weather forecasts for event dates, providing users with crucial information for outdoor activities.',
+        'Engineered a comprehensive full-stack web application for outdoor event management using Spring Boot for the backend and Angular for the frontend. Integrated Google Maps API to enhance location-based services, allowing users to visualize event locations and calculate distances. Implemented real-time weather forecasts for event dates, providing users with crucial information for outdoor activities.'
       ],
       image: 'assets/patagonia.jpg',
       link: 'https://trailbuddy.netlify.app/'

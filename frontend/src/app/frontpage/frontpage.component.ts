@@ -16,7 +16,7 @@ export class FrontpageComponent {
 
   projects = [
     { title: 'Interactive Pokemon Map', description: 'Uses the PokeAPI to explore the world of pokemon', link: 'https://pokemon-map.netlify.app/' },
-    { title: 'Trail-Buddy', description: 'IN DEVELOPMENT, Matches people who loves the great outdoors', link: 'https://trailbuddy.netlify.app/'},
+    { title: 'Trail-Buddy', description: 'Matches people who loves the great outdoors', link: 'https://trailbuddy.netlify.app/'},
     { title: 'Pokemon Price Tracker', description: 'Web Scrapper app to get the market value of video games', link: 'https://github.com/signOfi/PokemonPriceProject' },
   ];
 
