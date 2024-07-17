@@ -38,7 +38,7 @@ export class PortfolioComponent {
         'Analysis of Price Trends in Pokémon Video Games: Utilizing the data acquired through web scraping, the project focuses on analyzing trends and patterns in the pricing of Pokémon video games.',
       ],
       image: 'assets/price.jpg',
-      link: 'https://github.com/signOfi/PokemonPriceProject'
+      link: 'https://github.com/signOfi/VideoGamePriceProject'
     },
   ];
 
